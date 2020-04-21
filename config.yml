@@ -121,10 +121,6 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: East Coast      
     - name: Uncategorized
       untitled: true
 
@@ -134,15 +130,11 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
-    - name: API
-      description: The guts of the application.
+    - name: Application 
+      description: The BoardCentral application server 
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Website
+      description: Our website 
       category: Uncategorized
 
   # What date format to use?
@@ -192,7 +184,7 @@ params:
   #
   # Default: false
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
