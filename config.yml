@@ -153,7 +153,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should incident history be separated
   # like in an archive view?
