@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: BoardCentral Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://boardcentral-status.netlify.app
 
 ############################################################
 # +------------------------------------------------------+ #
