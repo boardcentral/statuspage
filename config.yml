@@ -207,14 +207,11 @@ params:
   #
   # Format:
 customTabs:
-  -
-    name: Home
+  - name: Home
     link: https://boardcentral.ca/
-  -
-    name: Board Central Application
+  - name: Board Central Application
     link: https://app.boardbcentral.ca/
-  -
-    name: Real Time Monitoring
+  - name: Real Time Monitoring
     link: https://stats.uptimerobot.com/JEpXOT8BMK
 
   # Disable complex server-side
