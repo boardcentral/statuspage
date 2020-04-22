@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: BoardCentral
+title: BoardCentral Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -200,16 +200,22 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: This page is updated by a human, who has to sleep from time to time.
 
   # Tabs on homepage
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+customTabs:
+  -
+    name: Home
+    link: https://boardcentral.ca/
+  -
+    name: Board Central Application
+    link: https://app.boardbcentral.ca/
+  -
+    name: Real Time Monitoring
+    link: https://stats.uptimerobot.com/JEpXOT8BMK
 
   # Disable complex server-side
   # calculations that may impact
