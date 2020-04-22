@@ -206,13 +206,13 @@ params:
   # Uncomment to enable.
   #
   # Format:
-customTabs:
-  - name: Home
-    link: https://boardcentral.ca/
-  - name: Board Central Application
-    link: https://app.boardbcentral.ca/
-  - name: Real Time Monitoring
-    link: https://stats.uptimerobot.com/JEpXOT8BMK
+  customTabs:
+    - name: Home
+      link: https://boardcentral.ca/
+    - name: Board Central Application
+      link: https://app.boardbcentral.ca/
+    - name: Real Time Monitoring
+      link: https://stats.uptimerobot.com/JEpXOT8BMK
 
   # Disable complex server-side
   # calculations that may impact
