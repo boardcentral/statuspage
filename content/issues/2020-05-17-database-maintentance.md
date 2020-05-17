@@ -20,4 +20,7 @@ less than an hour.
 Update: 10am  Issue with new configs... deploying a fix should
         be up momentarily.
 
+Update 10:24 Wow... rolled back to previous version and app
+       is running again.  Continuing maintenance
+
 Vince
