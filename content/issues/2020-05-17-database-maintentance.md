@@ -1,8 +1,8 @@
 ---
 title: DB migration issue during depoy
 date: 2020-05-17 9:45:00
-resolved: false
-resolvedWhen: 
+resolved: true
+resolvedWhen: 2020-05-17 11:40
 # Possible severity levels: down, disrupted, notice
 severity: notice
 affected:
@@ -22,5 +22,23 @@ Update: 10am  Issue with new configs... deploying a fix should
 
 Update 10:24 Wow... rolled back to previous version and app
        is running again.  Continuing maintenance
+
+Update: 11:39 Maintenance complete (but if anything could go
+        wrong it did!
+
+We've moved from sqlite3 to postgres and are now using B2
+for file upload storage.  This will help us scale in the
+future.
+
+Post mortem.  A number of things went wrong and here's what
+we're going to change to reduce the chances of it happening
+again:
+
+* Tag and run a known good image (instead of latest)
+* Run a quick shell with latest and make sure it loads before updating
+  the 'current' tag. (and/or use a staging environment and canary deploys
+  in the future).
+* Only change one piece of infrastructure at a time!
+
 
 Vince
