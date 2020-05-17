@@ -7,7 +7,7 @@ resolvedWhen:
 severity: notice
 affected:
   - Application
-section: maintenance
+section: issue
 ---
 
 Just a heads up that we're starting some maintenance on the
