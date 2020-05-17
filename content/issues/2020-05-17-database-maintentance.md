@@ -17,4 +17,7 @@ a minute or so at a time.
 I'll update my progress here as I go.  I expect it to all take
 less than an hour.
 
+Update: 10am  Issue with new configs... deploying a fix should
+        be up momentarily.
+
 Vince
