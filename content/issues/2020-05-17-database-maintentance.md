@@ -2,7 +2,7 @@
 title: DB migration issue during depoy
 date: 2020-05-17 9:45:00
 resolved: true
-resolvedWhen: 2020-05-17 11:40
+resolvedWhen: 2020-05-17 11:40:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
 affected:
