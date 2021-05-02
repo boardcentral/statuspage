@@ -1,8 +1,8 @@
 ---
 title: Planned Hosting Move
-date: 2021-05-02 15:40:00 PST
+date: 2021-05-02 15:40:00
 resolved: true
-resolvedWhen: 2021-05-02 15:40:00 PST
+resolvedWhen: 2021-05-02 15:40:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
 affected:
