@@ -7,7 +7,7 @@ resolvedWhen: 2021-05-02 15:40:00 PST
 severity: notice
 affected:
   - Application
-section: notices
+section: issue
 ---
 
 We are planning to move hosting providers.  This move
