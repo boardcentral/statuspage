@@ -30,3 +30,8 @@ Update: 20:11 - Database move is complete. Deploying the application...
 
 Update: 20:52 - Application is Deployed.  Updating DNS and SSL Certificate...
 
+Update: 21:06 - DNS Updated and Certificate has been issued.  
+
+At this point we're done!  The app will remain readonly until you get the new server (1 hour - 1 day).  I'll leave this ticket open until DNS updates for me.
+
+
