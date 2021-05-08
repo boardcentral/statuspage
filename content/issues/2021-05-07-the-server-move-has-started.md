@@ -24,3 +24,4 @@ The application will remain available during the move in a
 read only state.  Write access will automatically be restored 
 once DNS has updated for you.
 
+Update: 20:00 - App is readonly, moving the database
