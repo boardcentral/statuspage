@@ -1,8 +1,8 @@
 ---
 title: Moving Servers
 date: 2021-05-07 20:00:00
-resolved: false
-resolvedWhen: 
+resolved: true
+resolvedWhen: 2021-05-07 21:17:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
@@ -34,4 +34,5 @@ Update: 21:06 - DNS Updated and Certificate has been issued.
 
 At this point we're done!  The app will remain readonly until you get the new server (1 hour - 1 day).  I'll leave this ticket open until DNS updates for me.
 
+Update: 21:16 - DNS has updated for me, closing this ticket
 
