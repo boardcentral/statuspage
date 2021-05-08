@@ -25,3 +25,7 @@ read only state.  Write access will automatically be restored
 once DNS has updated for you.
 
 Update: 20:00 - App is readonly, moving the database
+
+Update: 20:11 - Database move is complete. Deploying the application...
+
+
